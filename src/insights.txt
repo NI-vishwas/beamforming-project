@@ -1,0 +1,59 @@
+Loading Data
+Object successfully read from /home/vishwas/deepmimo-wkspace/tmp/dataset.pkl
+Object successfully read from /home/vishwas/deepmimo-wkspace/tmp/target_weights.pkl
+Number of UEs: 4500
+Properties available for UE
+Property | Type of Data
+---------|-------------
+user |  'dict'
+basestation |  'dict'
+location |  'numpy.ndarray'
+paths |  'numpy.ndarray'
+LoS |  'numpy.ndarray'
+distance |  'numpy.ndarray'
+pathloss |  'numpy.ndarray'
+channel |  'numpy.ndarray'
+num_paths |  'int'
+DoD_phi |  'numpy.ndarray'
+DoD_theta |  'numpy.ndarray'
+DoA_phi |  'numpy.ndarray'
+DoA_theta |  'numpy.ndarray'
+phase |  'numpy.ndarray'
+ToA |  'numpy.ndarray'
+power |  'numpy.ndarray'
+
+Properties available for Base Station
+Property | Type of Data
+---------|-------------
+paths |  'numpy.ndarray'
+LoS |  'numpy.ndarray'
+location |  'numpy.ndarray'
+distance |  'numpy.ndarray'
+pathloss |  'numpy.ndarray'
+channel |  'list'
+
+Size of channel matrix at user: (4500, 1, 32, 64)
+Size of channel matrix at basestation: (1, 32, 32, 64)
+Minimum distance: 72.9718017578125
+Maximum distance: 101.89900207519531
+min_DoD_phi: -159.93800354003906
+max_DoD_phi: -21.965999603271484
+avg_DoD_phi: -91.90945768454549
+min_DoD_theta: 90.88089752197266
+max_DoD_theta: 96.1365966796875
+avg_DoD_theta: 93.05774028533591
+min_DoA_phi: 20.955799102783203
+max_DoA_phi: 157.1840057373047
+avg_DoA_phi: 79.38209543231747
+min_DoA_theta: 86.85769653320312
+max_DoA_theta: 96.1365966796875
+avg_DoA_theta: 90.79933190542907
+min_phase: -179.99899291992188
+max_phase: 179.99099731445312
+avg_phase: 0.014602048100687399
+min_ToA: 2.4348599936274695e-07
+max_ToA: 8.681569738655526e-07
+avg_ToA: 3.7975658331098407e-07
+min_power: 5.3137241435354915e-22
+max_power: 1.3593141889867155e-10
+avg_power: 3.166392264743394e-11
